@@ -78,6 +78,12 @@ To use these options:
 ```
 python main.py --experiment_description exp1 --run_description run_1 --seed 123 --training_mode random_init --selected_dataset HAR
 ```
+
+```
+conda activate inl_self_supervised_model;
+python main.py --experiment_description dcml --run_description run_1 --seed 123 --training_mode supervised --selected_dataset Ehrenreich_Waveform
+```
+
 Note that the name of the dataset should be the same name as inside the "data" folder, and the training modes should be
 the same as the ones above.
 
