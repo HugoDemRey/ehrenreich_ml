@@ -31,6 +31,7 @@ class Load_Dataset(Dataset):
         self.len = X_train.shape[0]
         if training_mode == "self_supervised":  # no need to apply Augmentations in other modes
             self.aug1, self.aug2 = DataTransform(self.x_data, config)
+            print("Data Augmentations of shape:", self.aug1.shape, "and", self.aug2.shape, "applied for self-supervised training.")
 
     def __getitem__(self, index):
         if self.training_mode == "self_supervised":
