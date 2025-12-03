@@ -23,7 +23,7 @@ class Config(object):
 
         # data parameters
         self.drop_last = True
-        self.batch_size = 16  # Reduced for spectrograms which are memory intensive
+        self.batch_size = 64  # Reduced for spectrograms which are memory intensive
 
         self.Context_Cont = Context_Cont_configs()
         self.TC = TC()
@@ -46,4 +46,4 @@ class Context_Cont_configs(object):
 class TC(object):
     def __init__(self):
         self.hidden_dim = 100
-        self.timesteps = 10
+        self.timesteps = 25

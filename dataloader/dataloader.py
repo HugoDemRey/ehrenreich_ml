@@ -14,6 +14,7 @@ class Load_Dataset(Dataset):
 
         X_train = dataset["samples"]
         y_train = dataset["labels"]
+        print("Loaded dataset with samples of shape:", X_train.shape)
 
         if len(X_train.shape) < 3:
             X_train = X_train.unsqueeze(2)
@@ -27,6 +28,8 @@ class Load_Dataset(Dataset):
         else:
             self.x_data = X_train
             self.y_data = y_train
+        
+        print("Final data shape:", self.x_data.shape)
 
         self.len = X_train.shape[0]
         if training_mode == "self_supervised":  # no need to apply Augmentations in other modes

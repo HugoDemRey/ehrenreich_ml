@@ -1,0 +1,204 @@
+=============================================
+Dataset: Ehrenreich_Spectrogram
+Method:  TS-TCC
+Mode:    fine_tune
+=============================================
+Data loaded ...
+Training started ....
+Epoch : 1
+Train Loss: 0.2364 | F1: 0.0254 | Precision: 0.1290 | Recall: 0.0141
+Valid Loss: 0.1977 | F1: 0.0000 | Precision: 0.0000 | Recall: 0.0000
+
+New best valid loss: 0.1977 at epoch 1, saving model checkpoint.
+Epoch : 2
+Train Loss: 0.1943 | F1: 0.0747 | Precision: 0.4554 | Recall: 0.0407
+Valid Loss: 0.2095 | F1: 0.0921 | Precision: 0.7000 | Recall: 0.0493
+
+Epoch : 3
+Train Loss: 0.1871 | F1: 0.1022 | Precision: 0.5289 | Recall: 0.0565
+Valid Loss: 0.1952 | F1: 0.1154 | Precision: 0.6429 | Recall: 0.0634
+
+New best valid loss: 0.1952 at epoch 3, saving model checkpoint.
+Epoch : 4
+Train Loss: 0.1764 | F1: 0.1443 | Precision: 0.5595 | Recall: 0.0828
+Valid Loss: 0.1788 | F1: 0.1625 | Precision: 0.7222 | Recall: 0.0915
+
+New best valid loss: 0.1788 at epoch 4, saving model checkpoint.
+Epoch : 5
+Train Loss: 0.1655 | F1: 0.1551 | Precision: 0.5667 | Recall: 0.0899
+Valid Loss: 0.1877 | F1: 0.2667 | Precision: 0.3614 | Recall: 0.2113
+
+Epoch : 6
+Train Loss: 0.1529 | F1: 0.2345 | Precision: 0.6089 | Recall: 0.1452
+Valid Loss: 0.1501 | F1: 0.2182 | Precision: 0.7826 | Recall: 0.1268
+
+New best valid loss: 0.1501 at epoch 6, saving model checkpoint.
+Epoch : 7
+Train Loss: 0.1438 | F1: 0.2704 | Precision: 0.5923 | Recall: 0.1752
+Valid Loss: 0.1485 | F1: 0.2967 | Precision: 0.6750 | Recall: 0.1901
+
+New best valid loss: 0.1485 at epoch 7, saving model checkpoint.
+Epoch : 8
+Train Loss: 0.1282 | F1: 0.3486 | Precision: 0.6452 | Recall: 0.2388
+Valid Loss: 0.1477 | F1: 0.3241 | Precision: 0.4730 | Recall: 0.2465
+
+New best valid loss: 0.1477 at epoch 8, saving model checkpoint.
+Epoch : 9
+Train Loss: 0.1150 | F1: 0.4287 | Precision: 0.6679 | Recall: 0.3157
+Valid Loss: 0.1319 | F1: 0.3163 | Precision: 0.5741 | Recall: 0.2183
+
+New best valid loss: 0.1319 at epoch 9, saving model checkpoint.
+Epoch : 10
+Train Loss: 0.1023 | F1: 0.5221 | Precision: 0.7471 | Recall: 0.4012
+Valid Loss: 0.1309 | F1: 0.4889 | Precision: 0.5156 | Recall: 0.4648
+
+New best valid loss: 0.1309 at epoch 10, saving model checkpoint.
+Epoch : 11
+Train Loss: 0.0919 | F1: 0.5774 | Precision: 0.7575 | Recall: 0.4664
+Valid Loss: 0.1197 | F1: 0.4273 | Precision: 0.6026 | Recall: 0.3310
+
+New best valid loss: 0.1197 at epoch 11, saving model checkpoint.
+Epoch : 12
+Train Loss: 0.0834 | F1: 0.6438 | Precision: 0.8045 | Recall: 0.5366
+Valid Loss: 0.1167 | F1: 0.5118 | Precision: 0.5804 | Recall: 0.4577
+
+New best valid loss: 0.1167 at epoch 12, saving model checkpoint.
+Epoch : 13
+Train Loss: 0.0743 | F1: 0.6805 | Precision: 0.8034 | Recall: 0.5903
+Valid Loss: 0.1038 | F1: 0.5470 | Precision: 0.6957 | Recall: 0.4507
+
+New best valid loss: 0.1038 at epoch 13, saving model checkpoint.
+Epoch : 14
+Train Loss: 0.0679 | F1: 0.7247 | Precision: 0.8294 | Recall: 0.6434
+Valid Loss: 0.1144 | F1: 0.5041 | Precision: 0.6100 | Recall: 0.4296
+
+Epoch : 15
+Train Loss: 0.0591 | F1: 0.7504 | Precision: 0.8359 | Recall: 0.6807
+Valid Loss: 0.1136 | F1: 0.4762 | Precision: 0.7353 | Recall: 0.3521
+
+Epoch : 16
+Train Loss: 0.0576 | F1: 0.7648 | Precision: 0.8485 | Recall: 0.6960
+Valid Loss: 0.1145 | F1: 0.5473 | Precision: 0.5260 | Recall: 0.5704
+
+Epoch : 17
+Train Loss: 0.0528 | F1: 0.7788 | Precision: 0.8498 | Recall: 0.7187
+Valid Loss: 0.1006 | F1: 0.5863 | Precision: 0.6822 | Recall: 0.5141
+
+New best valid loss: 0.1006 at epoch 17, saving model checkpoint.
+Epoch : 18
+Train Loss: 0.0479 | F1: 0.7991 | Precision: 0.8631 | Recall: 0.7438
+Valid Loss: 0.0920 | F1: 0.6099 | Precision: 0.8395 | Recall: 0.4789
+
+New best valid loss: 0.0920 at epoch 18, saving model checkpoint.
+Epoch : 19
+Train Loss: 0.0462 | F1: 0.8163 | Precision: 0.8751 | Recall: 0.7650
+Valid Loss: 0.0952 | F1: 0.6791 | Precision: 0.7222 | Recall: 0.6408
+
+Epoch : 20
+Train Loss: 0.0416 | F1: 0.8336 | Precision: 0.8876 | Recall: 0.7859
+Valid Loss: 0.0936 | F1: 0.6109 | Precision: 0.7526 | Recall: 0.5141
+
+Epoch : 21
+Train Loss: 0.0395 | F1: 0.8354 | Precision: 0.8868 | Recall: 0.7896
+Valid Loss: 0.0943 | F1: 0.6141 | Precision: 0.7475 | Recall: 0.5211
+
+Epoch : 22
+Train Loss: 0.0356 | F1: 0.8608 | Precision: 0.9065 | Recall: 0.8195
+Valid Loss: 0.1028 | F1: 0.5740 | Precision: 0.7901 | Recall: 0.4507
+
+Epoch : 23
+Train Loss: 0.0363 | F1: 0.8554 | Precision: 0.8896 | Recall: 0.8238
+Valid Loss: 0.0937 | F1: 0.5941 | Precision: 0.7320 | Recall: 0.5000
+
+Epoch : 24
+Train Loss: 0.0318 | F1: 0.8753 | Precision: 0.9153 | Recall: 0.8386
+Valid Loss: 0.0935 | F1: 0.6957 | Precision: 0.7164 | Recall: 0.6761
+
+Epoch : 25
+Train Loss: 0.0353 | F1: 0.8608 | Precision: 0.8984 | Recall: 0.8263
+Valid Loss: 0.0936 | F1: 0.6581 | Precision: 0.8370 | Recall: 0.5423
+
+Epoch : 26
+Train Loss: 0.0305 | F1: 0.8782 | Precision: 0.9111 | Recall: 0.8477
+Valid Loss: 0.0784 | F1: 0.6875 | Precision: 0.7719 | Recall: 0.6197
+
+New best valid loss: 0.0784 at epoch 26, saving model checkpoint.
+Epoch : 27
+Train Loss: 0.0282 | F1: 0.8873 | Precision: 0.9196 | Recall: 0.8571
+Valid Loss: 0.0972 | F1: 0.6201 | Precision: 0.8161 | Recall: 0.5000
+
+Epoch : 28
+Train Loss: 0.0255 | F1: 0.9024 | Precision: 0.9348 | Recall: 0.8721
+Valid Loss: 0.0837 | F1: 0.6827 | Precision: 0.7944 | Recall: 0.5986
+
+Epoch : 29
+Train Loss: 0.0286 | F1: 0.8893 | Precision: 0.9208 | Recall: 0.8599
+Valid Loss: 0.1021 | F1: 0.6228 | Precision: 0.8256 | Recall: 0.5000
+
+Epoch : 30
+Train Loss: 0.0256 | F1: 0.8946 | Precision: 0.9206 | Recall: 0.8701
+Valid Loss: 0.0998 | F1: 0.6283 | Precision: 0.8452 | Recall: 0.5000
+
+Epoch : 31
+Train Loss: 0.0239 | F1: 0.9084 | Precision: 0.9388 | Recall: 0.8800
+Valid Loss: 0.0937 | F1: 0.6960 | Precision: 0.8056 | Recall: 0.6127
+
+Epoch : 32
+Train Loss: 0.0231 | F1: 0.9086 | Precision: 0.9300 | Recall: 0.8882
+Valid Loss: 0.0858 | F1: 0.6439 | Precision: 0.6967 | Recall: 0.5986
+
+Epoch : 33
+Train Loss: 0.0240 | F1: 0.9036 | Precision: 0.9307 | Recall: 0.8781
+Valid Loss: 0.0844 | F1: 0.6790 | Precision: 0.7132 | Recall: 0.6479
+
+Epoch : 34
+Train Loss: 0.0208 | F1: 0.9206 | Precision: 0.9477 | Recall: 0.8951
+Valid Loss: 0.0823 | F1: 0.6641 | Precision: 0.7456 | Recall: 0.5986
+
+Epoch : 35
+Train Loss: 0.0216 | F1: 0.9138 | Precision: 0.9345 | Recall: 0.8941
+Valid Loss: 0.0809 | F1: 0.7115 | Precision: 0.8108 | Recall: 0.6338
+
+Epoch : 36
+Train Loss: 0.0188 | F1: 0.9270 | Precision: 0.9475 | Recall: 0.9074
+Valid Loss: 0.0985 | F1: 0.6724 | Precision: 0.8667 | Recall: 0.5493
+
+Epoch : 37
+Train Loss: 0.0204 | F1: 0.9200 | Precision: 0.9386 | Recall: 0.9022
+Valid Loss: 0.0976 | F1: 0.6833 | Precision: 0.8367 | Recall: 0.5775
+
+Epoch : 38
+Train Loss: 0.0136 | F1: 0.9518 | Precision: 0.9647 | Recall: 0.9392
+Valid Loss: 0.0714 | F1: 0.7323 | Precision: 0.8304 | Recall: 0.6549
+
+New best valid loss: 0.0714 at epoch 38, saving model checkpoint.
+Epoch : 39
+Train Loss: 0.0084 | F1: 0.9738 | Precision: 0.9812 | Recall: 0.9665
+Valid Loss: 0.0698 | F1: 0.7429 | Precision: 0.8835 | Recall: 0.6408
+
+New best valid loss: 0.0698 at epoch 39, saving model checkpoint.
+Epoch : 40
+Train Loss: 0.0074 | F1: 0.9796 | Precision: 0.9884 | Recall: 0.9710
+Valid Loss: 0.0656 | F1: 0.7490 | Precision: 0.8624 | Recall: 0.6620
+
+New best valid loss: 0.0656 at epoch 40, saving model checkpoint.
+Loading best model from epoch 40
+Collecting validation probabilities for threshold optimization...
+Threshold optimization results:
+Best threshold: 0.186
+Best validation F1: 0.7877
+Validation positive rate: 4.7%
+Evaluating on test set:
+1. With default threshold (0.5):
+Test Loss: 0.0696 | F1: 0.7608 | Precision: 0.8584 | Recall: 0.6831
+2. With optimized threshold (0.186):
+Test Loss: 0.0696 | F1: 0.7475 | Precision: 0.7161 | Recall: 0.7817
+=== THRESHOLD OPTIMIZATION RESULTS ===
+F1 improvement: -0.0133 (from 0.7608 to 0.7475)
+Optimal threshold: 0.186 (vs default 0.5)
+Best validation loss epoch: 40
+################## Training is Done! #########################
+Creating transition analysis visualization...
+Analysis Results: Precision=0.858, Recall=0.683, F1=0.761
+TP=97, FP=16, FN=45, TN=2858
+Training time is : 0:04:33.643143
