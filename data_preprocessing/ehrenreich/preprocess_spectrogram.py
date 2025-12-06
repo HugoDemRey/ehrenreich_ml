@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 from multiprocessing import Pool, cpu_count
 from functools import partial
+import argparse
 
 # Set random seed for reproducibility
 RANDOM_SEED = 42
@@ -258,11 +259,17 @@ def balance_dataset(spectrograms, labels, target_ratio=0.5, random_seed=RANDOM_S
 # Split train/val/test with balanced training data only
 def save_splits(spectrograms_np, labels_np, output_dir):
     X_train, X_temp, y_train, y_temp = train_test_split(
-        spectrograms_np, labels_np, test_size=0.2, random_state=123, stratify=labels_np
+        spectrograms_np, labels_np, test_size=0.2, shuffle=False
     )
     X_val, X_test, y_val, y_test = train_test_split(
-        X_temp, y_temp, test_size=0.5, random_state=456, stratify=y_temp
+        X_temp, y_temp, test_size=0.5, shuffle=False
     )
+
+    # Shuffle training data before balancing
+    train_indices = np.arange(len(y_train))
+    np.random.shuffle(train_indices)
+    X_train = X_train[train_indices]
+    y_train = y_train[train_indices]
 
     print(f"\nOriginal split distributions (no balancing):")
     print(f"Train: {np.sum(y_train)} / {len(y_train)} ({np.mean(y_train)*100:.1f}%) positive")
@@ -317,7 +324,20 @@ def load_raw_data(dataset_id):
 # To run preprocessing and saving:
 if __name__ == "__main__":
 
-    ids = ["bar20-t2-c2", "bar103-t2-c2", "bar2-t1-c1"]
+    # parser = argparse.ArgumentParser(description="Preprocess Ehrenreich spectrogram data")
+    # parser.add_argument('--ids', type=str, required=True,
+    #                     help="Comma-separated list of dataset IDs (e.g. 'bar20-t2-c2,bar103-t2-c2')")
+    # parser.add_argument('--config_type', type=str, default='default',
+    #                     help="Configuration type (e.g. 'default', 'strict', etc.)")
+    # args = parser.parse_args()
+
+    # ids = [id_.strip() for id_ in args.ids.split(',')]
+    # config_type = args.config_type
+
+    # print(f"Using dataset IDs: {ids}")
+    # print(f"Configuration type: {config_type}")
+
+    ids = ["bar20-t2-c2"]#, "bar103-t2-c2", "bar2-t1-c1"]
     signals = []
     transitions_labels = []
 
